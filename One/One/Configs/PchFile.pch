@@ -1,0 +1,31 @@
+//
+//  PchFile.pch
+//  One  预编译文件 导入的类可全项目访问
+//
+//  Created by youngstar on 16/5/17.
+//  Copyright © 2016年 杨铭星. All rights reserved.
+//
+
+#ifndef PchFile_pch
+#define PchFile_pch
+
+#import "ViewController.h"
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "SetViewController.h"
+#import <Foundation/Foundation.h>
+#import "CommonMacro.h"
+#import "UIView+LSAdditions.h"
+#import "UIColor+AkColor.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Add.h"
+#import "LSHelper.h"
+#import "CLog.h"
+#import "Home_A_ViewController.h"
+#import "Home_B_ViewController.h"
+#import "Home_C_Controller.h"
+
+
+
+
+#endif /* PchFile_pch */
